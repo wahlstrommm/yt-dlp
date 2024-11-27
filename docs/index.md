@@ -1,84 +1,35 @@
-# yt-dlp
+# yt-dlp: En kraftfull nedladdningslösning
 
-## yt-dlp kommando
+**yt-dlp** är ett open-source verktyg som gör det möjligt att ladda ner videor, ljud och annat media från hundratals webbplatser, inklusive YouTube, SoundCloud, TikTok, Twitch, och många fler. Det är en vidareutveckling av det populära verktyget youtube-dl, med fler funktioner och bättre prestanda.
 
-### Ladda ner en video
+---
 
-```bash
-yt-dlp URL
-```
+## **Vad hittar du i denna dokumentation?**
 
-### Ladda ner mp3
+- **Enkel användning**  
+  Lär dig grunderna med enkla kommandon för att ladda ner videor och konvertera ljud.
+[Utforska yt-dlp kommandon](yt-dlp-kommando.md)
 
-```bash
-yt-dlp -x --audio-format mp3 URL
-```
+  
+- **Avancerade funktioner**  
+  Utforska fler alternativ, som nedladdning av spellistor, undertexter och specifika format.
 
-### Välj högsta kvalitet (video och ljud kombinerat)
+- **Lista över stödda webbplatser**  
+  En omfattande översikt av de tjänster och plattformar som yt-dlp fungerar med.
 
-```bash
-yt-dlp -f best URL
-```
+[Se hela listan](list.md)
 
-### Ange utdatafilens namn
+---
 
-```bash
-yt-dlp -o "%(title)s.%(ext)s" URL
-```
+## **Varför använda yt-dlp?**
+- Ladda ner innehåll med hög kvalitet.
+- Extrahera ljud (MP3, AAC, etc.).
+- Hantera spellistor och live-streamar.
+- Anpassa filnamn och metadata.
 
-### Ladda ner spellista (video och ljud)
+---
 
-```bash
-yt-dlp --yes-playlist URL
-```
+## **Kom igång**
+Följ guiderna i denna dokumentation för att snabbt komma igång med yt-dlp, oavsett om du bara vill ladda ner en enkel video eller hantera mer avancerade arbetsflöden.
 
-### Ladda ner spellista (video och ljud med undertexter)
-
-```bash
-yt-dlp --yes-playlist --write-subs --write-auto-sub URL
-```
-
-## Soundcloud
-
-### Grundläggande kommando:
-
-```bash
-yt-dlp <URL>
-```
-
-### Ladda ner som MP3 :
-
-```bash
-yt-dlp -x --audio-format mp3 <URL>
-```
-
-``
--x
-``
-: Extraherar ljudet.
-
-``
---audio-format mp3
-``
-: Konverterar ljudet till MP3-format
-
-### Ladda ner en hel spellista :
-
-```bash
-yt-dlp --yes-playlist <URL>
-```
-
-### Anpassa filnamn:
-
-Om du vill namnge filerna baserat på titel och artist från SoundCloud:
-
-```bash
-yt-dlp -o "%(artist)s - %(title)s.%(ext)s" <URL>
-```
-
-Exempelutdata:
-
-``
-Artist - Song Title.mp3
-``
-
+[Läs mer på installation](setup.md)
