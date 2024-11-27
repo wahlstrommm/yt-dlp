@@ -1,4 +1,5 @@
 site_name: yt-dlp
+site_url: https://wahlstrommm.github.io/yt-dlp/
 theme:
   name: material
   features:
