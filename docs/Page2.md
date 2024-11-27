@@ -69,3 +69,27 @@ Verifiera att FFmpeg är korrekt installerat:
 ``
 ffmpeg -version
 ``
+
+## Steg 4: Testa yt-dlp
+
+- Kör ett testkommando för att ladda ner en video eller ljud:
+  
+``
+yt-dlp https://www.youtube.com/watch?v=example
+``
+
+- Om du vill ladda ner enbart ljud och konvertera det till MP3, kör:
+
+``
+yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=example
+``
+
+Kontrollera att filen laddades ner och är spelbar.
+
+## Steg 5: Uppdatera yt-dlp (Vid behov)
+
+För att hålla yt-dlp uppdaterat, kör följande kommando regelbundet:
+
+``
+pip install -U yt-dlp
+``
