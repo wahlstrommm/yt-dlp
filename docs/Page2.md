@@ -38,3 +38,34 @@ pip install -U yt-dlp
 Flaggförklaring:
 
 ``-U``: Uppdaterar till den senaste versionen om yt-dlp redan är installerat.
+
+Kontrollera att yt-dlp har installerats korrekt genom att köra:
+
+``
+yt-dlp --version
+``
+
+Om du ser en versionsnummerutskrift är yt-dlp installerat och redo att användas.
+
+## Steg 3: Installera beroenden för ljudkonvertering (FFmpeg)
+
+Varför behövs FFmpeg?
+
+FFmpeg krävs om du vill extrahera ljud, konvertera format eller förbättra prestandan vid nedladdning.
+
+    Ladda ner FFmpeg från FFmpeg.org.
+
+    Följ installationsanvisningarna för ditt operativsystem:
+
+        Windows:
+            - Ladda ner en Windows-kompatibel version från Gyan.dev.
+            - Extrahera filerna och lägg till FFmpeg i din PATH. Detta görs via:
+                - Högerklicka på "Den här datorn" > "Egenskaper".
+                - Klicka på "Avancerade systeminställningar" > "Miljövariabler".
+                - Under "Systemvariabler", hitta Path, klicka på "Redigera", och lägg till sökvägen till din FFmpeg-mapp (t.ex. C:\ffmpeg\bin).
+  
+Verifiera att FFmpeg är korrekt installerat:
+
+``
+ffmpeg -version
+``
