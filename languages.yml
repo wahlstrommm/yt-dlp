@@ -1,0 +1,7 @@
+languages:
+  - name: Python
+    description: Python is used for the main functionality of yt-dlp.
+  - name: Markdown
+    description: Markdown is used for the documentation.
+  - name: YAML
+    description: YAML is used for the configuration files (e.g., mkdocs.yml).
