@@ -1,4 +1,11 @@
+---
+title: "Index"
+password: "index_password"
+---
+
 # yt-dlp: En kraftfull nedladdningslösning
+
+# yt-dlp:
 
 **yt-dlp** är ett open-source verktyg som gör det möjligt att ladda ner videor, ljud och annat media från hundratals webbplatser, inklusive YouTube, SoundCloud, TikTok, Twitch, och många fler. Det är en vidareutveckling av det populära verktyget youtube-dl, med fler funktioner och bättre prestanda.
 
