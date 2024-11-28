@@ -1,0 +1,9 @@
+/* Döljer TOC om sidan har ett lösenord */
+[data-password] .md-header-nav {
+    display: none !important; /* Använd !important för att säkerställa att regeln tillämpas */
+}
+
+/* Döljer hela headern om den har ett lösenord */
+[data-password] .md-header {
+    display: none !important; /* Använd !important här också */
+}
