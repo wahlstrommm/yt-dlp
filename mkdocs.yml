@@ -1,5 +1,12 @@
 site_name: yt-dlp
 site_url: https://wahlstrommm.github.io/yt-dlp/
+plugins:
+  - search
+  - encryptcontent:
+      global_password: "" # Ingen globalt lösenord, eftersom vi använder specifika lösenord
+      redirect_url: /404.html
+extra_css:
+  - styles.css
 theme:
   name: material
   features:
