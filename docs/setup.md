@@ -1,3 +1,8 @@
+---
+title: "Setup"
+password: "setup_password"
+---
+
 # Installation
 
 # Steg för steg: Installera yt-dlp
